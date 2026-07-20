@@ -50,5 +50,14 @@ public abstract class Pessoa {
         return idade;
     }
 
+    @Override
+    public String toString() {
+        return "Nome:" + nome +
+                "\nCpf: " + cpf +
+                "\nTelefone:" + telefone +
+                "\nIdade: " + idade;
+
+    }
+
 
 }

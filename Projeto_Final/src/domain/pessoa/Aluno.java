@@ -31,5 +31,11 @@ public class Aluno extends Pessoa{
         return treino;
     }
 
+    @Override
+    public String toString() {
+        return super.toString() +
+                "\nMatrícula: " + matricula +
+                "\nPlano: " + plano;
+    }
 
 }
