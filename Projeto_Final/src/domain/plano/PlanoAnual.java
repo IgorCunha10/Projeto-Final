@@ -8,6 +8,6 @@ public class PlanoAnual extends Plano{
 
     @Override
     public double calcularPreco() {
-        return getPrecoBase() * 12;
+        return getPrecoBase() * 12 * 0.15;
     }
 }

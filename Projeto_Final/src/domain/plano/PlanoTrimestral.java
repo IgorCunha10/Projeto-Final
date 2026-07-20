@@ -8,6 +8,6 @@ public class PlanoTrimestral extends Plano{
 
     @Override
     public double calcularPreco() {
-        return getPrecoBase() * 3;
+        return getPrecoBase() * 3 * 0.5;
     }
 }
