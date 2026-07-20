@@ -1,4 +1,4 @@
 package domain.plano;
 
-public class PlanoAnual {
+public class PlanoAnual extends Plano{
 }
