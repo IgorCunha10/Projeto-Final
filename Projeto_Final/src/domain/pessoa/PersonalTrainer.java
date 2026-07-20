@@ -10,5 +10,14 @@ public class PersonalTrainer extends Funcionario{
             this.numRegistro = numRegistro;
     }
 
+    public String getNumRegistro() {
+        return numRegistro;
+    }
+
+@Override
+public String toString() {
+        return super.toString() +
+                "\nNúmero de Registro: " + numRegistro;
+}
 
 }

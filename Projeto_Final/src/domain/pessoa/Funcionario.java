@@ -32,6 +32,12 @@ public class Funcionario extends Pessoa{
         this.salario = salario;
     }
 
+    @Override
+    public String toString() {
+        return super.toString() +
+        "\nCargo: " + getCargo() +
+        "\nSalário: " + getSalario();
+    }
 
 
 }

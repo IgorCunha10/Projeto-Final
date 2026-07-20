@@ -1,6 +1,5 @@
 package domain.pessoa;
 
-import domain.academia.Treino;
 import domain.plano.Plano;
 
 public class Aluno extends Pessoa{
@@ -29,8 +28,8 @@ public class Aluno extends Pessoa{
     @Override
     public String toString() {
         return super.toString() +
-                "\nMatrícula: " + matricula +
-                "\nPlano: " + plano;
+                "\nMatrícula: " + getMatricula() +
+                "\nPlano: " + getPlano();
     }
 
 }
